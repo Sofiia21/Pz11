@@ -1,0 +1,12 @@
+<div>
+    <p>Welcome to the {$page} page</p>
+</div>
+
+{foreach $news as $item}
+    <div>
+        {$item['title']}<br>
+        {$item['text']}<br>
+        {$item['data']}<br>
+    </div>
+    <hr>
+{/foreach}
